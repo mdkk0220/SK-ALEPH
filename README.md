@@ -1,7 +1,7 @@
 # SK-ALEPH · 부트캠프 실습 모음
 
 > SK ALEPH 부트캠프(2026-09 ~ 10)에서 진행한 실습 5개를 한곳에 모은 레포입니다.
-> 원래 레포 `aleph-mk` ~ `aleph-mk5`의 **커밋 이력을 그대로 보존**한 채 폴더별로 합쳤습니다.
+> 처음에는 실습마다 레포를 따로 만들었다가(`aleph-mk` ~ `aleph-mk5`), **커밋 이력을 그대로 보존**한 채 이 레포 하나로 합쳤습니다.
 
 `HTML` `CSS` `JavaScript` `React 18` `Vite` `localStorage`
 
@@ -40,14 +40,14 @@ flowchart LR
 ```text
 SK-ALEPH/
 ├── README.md                       # 전체 목록 (이 문서)
-├── MK1_intro-page/                 # 원래 aleph-mk
-├── MK2_dodge-runner/               # 원래 aleph-mk2
-├── MK3_fancard-studio/             # 원래 aleph-mk3
-├── MK4_exchange-rate-board/        # 원래 aleph-mk4
-└── MK5_ai-handoff-experiment/      # 원래 aleph-mk5
+├── MK1_intro-page/                 # 이전 aleph-mk
+├── MK2_dodge-runner/               # 이전 aleph-mk2
+├── MK3_fancard-studio/             # 이전 aleph-mk3
+├── MK4_exchange-rate-board/        # 이전 aleph-mk4
+└── MK5_ai-handoff-experiment/      # 이전 aleph-mk5
 ```
 
 ## 이력에 대해
 - `git subtree`로 합쳐서 원래 레포의 커밋이 그대로 남아 있습니다. `git log -- MK3_fancard-studio`처럼 폴더별 이력을 볼 수 있습니다.
 - MK5 문서에 나오는 태그 `a-stop`도 같은 커밋을 가리키도록 옮겼습니다.
-- MK5의 `HANDOFF.md`, `checks/RECORD.md`, `public/report.html`은 실험 당시 기록이라 원래 레포 주소와 커밋 ID를 그대로 두었습니다.
+- 합치기 전과 커밋 ID가 같아서, MK5 기록에 나오는 커밋 ID(`c79bcc8`, `fcc3330` 등)는 이 레포에서 그대로 찾을 수 있습니다.
