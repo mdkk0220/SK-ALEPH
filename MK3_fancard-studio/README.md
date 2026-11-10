@@ -15,4 +15,4 @@ npm install
 npm run dev
 ```
 
-탭 4 · 5의 템플릿이 새로고침하면 사라지는 문제는 [aleph-mk5](https://github.com/mdkk0220/aleph-mk5)에서 고쳤습니다.
+탭 4 · 5의 템플릿이 새로고침하면 사라지는 문제는 [MK5](../MK5_ai-handoff-experiment/)에서 고쳤습니다.
